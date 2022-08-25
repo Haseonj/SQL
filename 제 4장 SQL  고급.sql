@@ -90,7 +90,12 @@ select * from `Member` where `name` like '김%';
 select * from `Member` where `name` like '김_ _';
 select * from `Member` where `name` like '_성_';
 select * from `Member` where `name` like '정_';
+select * from `Sales` where `sale` > 50000;
+select * from `Sales` where `sale` >= 50000 and `sale` < 100000 and `month` = 1;
 select * from `Sales` where `sale` between 50000 and 100000;
+select * from `Sales` where `sale` not between 50000 and 100000;
+select * from `Sales` where `year` in(2020);
+select * from `Sales` where `month` in(1, 2);
 
 
 
