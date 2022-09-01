@@ -147,7 +147,14 @@ from `Student` as a
 join `Register` as b
 where `regLecNo` = 349;
 
-# 실습 3-21
+# 실습 3-21 <>
+select 
+	`stdNo`, `stdName`, count(`stdNo`) as `수강신청 건수`,
+    sum(`regTotalScore`) as `총합점수`,
+    sum(`regTotalScore`) / count(`stdNo`) as `평균`
+from `Student` as a
+join `Register` as b
+on a.stdNo =  b.regStdNo;
 # 실습 3-22
 # 실습 3-23
 # 실습 3-24
