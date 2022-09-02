@@ -203,17 +203,26 @@ where `salePrice` = 20000;
 # select `name`, `salePrice` from `Customer` as a
 # left join `Order` as b
 # on a.custId = b.custId;
+select 
+	`name`, `salePrice`
+from `Customer` as a
+left join `Order` as b 
+on a.custId = b.custId;
+
 
 # 실습 4-41
 # select `bookName` from `Book` where `price` = (select max(`price`) from `Book`);
+select `bookName` from `Book` order by `price` desc limit 1;
+
 
 # 실습 4-42
-# select `name` from `Customer` where `name` not in (select distinct `custId` from `Order`); 
+# select `name` from `Customer` where `custId` not in (select distinct `custId` from `Order`); 
 # select `name` from `Customer` where `custId` in (select distinct `custId` from `Order`);
-
+select `name` from `Customer` where `custId` not in (select distinct `custId` from `Order`);
 
 # 실습 4-43
 # select sum(`salePrice`) as `총판매액` from `Order` where `custId` = (select `custId` from `Customer` where `name` = '김연아');
+select sum(`saleprice`) as `총매출` from `Order` where `custId` = (select `custId` from `Customer` where `name` = '김연아');
 
 # 실습 4-44
 
