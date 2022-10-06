@@ -73,7 +73,7 @@ insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `ite
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010310100', '160103', '120000', '0', '1');
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010410101', '170115', '900000', '12', '1');
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010510021', '110101', '76000', '5', '1');
-insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010510027', '130101', '56000', '0', '2');
+insert into `OrderIteuser3ms` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010510027', '130101', '56000', '0', '2');
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010510021', '100101', '25000', '20', '1');
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010510031', '170115', '900000', '12', '1');
 insert into `OrderItems` (`orderNo`, `prodNo`, `itemPrice`, `itemDiscount`, `itemCount`) values ('22010710110', '120103', '21000', '10', '5');

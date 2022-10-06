@@ -72,4 +72,4 @@ insert into `Charts` values ('C1081008', '1081008', 'D108101', 'P108101', '발�
 insert into `Charts` values ('C1021009', '1021009', 'D102104', 'P102103', '주사 처방');
 insert into `Charts` values ('C1071010', '1071010', 'D107104', 'P107101', 'MRI 검사');
 insert into `Charts` values ('C1051011', '1051011', 'D105101', 'P105102', '귀 청소 및 약 처방');
-insert into `Charts` values ('C1041012', '1041012', 'D104101', 'P104103', '화상 크림약 처방');user1user1
+insert into `Charts` values ('C1041012', '1041012', 'D104101', 'P104103', '화상 크림약 처방');
